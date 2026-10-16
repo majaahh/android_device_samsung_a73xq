@@ -71,8 +71,108 @@
     </highBrightnessMode>
 
     <autoBrightness enabled="true">
-        <brighteningLightDebounceMillis>1500</brighteningLightDebounceMillis>
-        <darkeningLightDebounceMillis>1500</darkeningLightDebounceMillis>
+        <luxToBrightnessMapping>
+            <mode>default</mode>
+            <setting>normal</setting>
+            <map>
+                <point>
+                    <first>0</first>
+                    <second>0.027447</second> <!-- 11 nits -->
+                </point>
+                <point>
+                    <first>1</first>
+                    <second>0.036844</second> <!-- 15 nits -->
+                </point>
+                <point>
+                    <first>2</first>
+                    <second>0.051103</second> <!-- 22 nits -->
+                </point>
+                <point>
+                    <first>3</first>
+                    <second>0.058557</second> <!-- 26 nits -->
+                </point>
+                <point>
+                    <first>4</first>
+                    <second>0.067476</second> <!-- 31 nits -->
+                </point>
+                <point>
+                    <first>5</first>
+                    <second>0.074420</second> <!-- 35 nits -->
+                </point>
+                <point>
+                    <first>10</first>
+                    <second>0.092942</second> <!-- 46 nits -->
+                </point>
+                <point>
+                    <first>15</first>
+                    <second>0.117964</second> <!-- 62 nits -->
+                </point>
+                <point>
+                    <first>20</first>
+                    <second>0.142745</second> <!-- 79 nits -->
+                </point>
+                <point>
+                    <first>25</first>
+                    <second>0.155321</second> <!-- 88 nits -->
+                </point>
+                <point>
+                    <first>50</first>
+                    <second>0.162177</second> <!-- 93 nits -->
+                </point>
+                <point>
+                    <first>100</first>
+                    <second>0.170299</second> <!-- 99 nits -->
+                </point>
+                <point>
+                    <first>300</first>
+                    <second>0.186248</second> <!-- 111 nits -->
+                </point>
+                <point>
+                    <first>500</first>
+                    <second>0.210891</second> <!-- 130 nits -->
+                </point>
+                <point>
+                    <first>1000</first>
+                    <second>0.284092</second> <!-- 190 nits -->
+                </point>
+                <point>
+                    <first>2000</first>
+                    <second>0.445697</second> <!-- 340 nits -->
+                </point>
+                <point>
+                    <first>3000</first>
+                    <second>0.620385</second> <!-- 500 nits -->
+                </point>
+                <point>
+                    <first>4000</first>
+                    <second>0.810191</second> <!-- 650 nits -->
+                </point>
+                <point>
+                    <first>5000</first>
+                    <second>1.000000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>6000</first>
+                    <second>1.000000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>20000</first>
+                    <second>1.000000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>40000</first>
+                    <second>1.000000</second> <!-- 800 nits -->
+                </point>
+                <point>
+                    <first>999999</first>
+                    <second>1.000000</second> <!-- 800 nits -->
+                </point>
+            </map>
+        </luxToBrightnessMapping>
+        <brighteningLightDebounceMillis>1000</brighteningLightDebounceMillis>
+        <darkeningLightDebounceMillis>2000</darkeningLightDebounceMillis>
+        <brighteningLightDebounceIdleMillis>-1</brighteningLightDebounceIdleMillis>
+        <darkeningLightDebounceIdleMillis>-1</darkeningLightDebounceIdleMillis>
     </autoBrightness>
 
     <hdrBrightnessConfig>
