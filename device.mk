@@ -49,7 +49,11 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2.vendor
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    FrameworkResOverlayDevice \
+    SettingsOverlayDevice \
+    SettingsProviderOverlayDevice \
+    SystemUIOverlayDevice
 
 # Sensors
 PRODUCT_PACKAGES += \
