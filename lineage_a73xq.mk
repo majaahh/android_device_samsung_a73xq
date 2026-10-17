@@ -6,10 +6,6 @@
 # Inherit from the device
 $(call inherit-product, device/samsung/a73xq/device.mk)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2400
-TARGET_SCREEN_WIDTH := 1080
-
 # Device identifiers
 PRODUCT_NAME := lineage_a73xq
 PRODUCT_DEVICE := a73xq
